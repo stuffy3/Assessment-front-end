@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="./about.html">About</a></li>
+        <li class="crumb"><a href="./buy.html">Where to Buy</a></li>
+      </ol>
+    </nav>
+    <br />
+    <h1>So, you're interested in buying rubber ducks?</h1>
+    <h2>I'll let you in on a little secret</h2>
+
+    <div class="background-div">
+      <h2>Rubber ducks on the market are too expensive</h2>
+      <h4>Watch this short video and learn where to find cheap ones!</h4>
+      <iframe
+        width="720"
+        height="480"
+        src="https://www.youtube.com/embed/b29yLwesgdI"
+        title="YouTube video player"
+        frameborder="0"
+      ></iframe>
+    </div>
+    <div>
+      <form
+        action="http://www.amazon.com/exec/obidos/external-search"
+        [RETURN]
+        method="get"
+      >
+        <input type="hidden" name="mode" value="blended" />
+        <input type="hidden" name="tag" value="insert associate tag" />
+        Search Amazon:<br />
+        <input
+          type="text"
+          placeholder="Rubber Ducks"
+          name="keyword"
+          size="20"
+          value=""
+        />
+        <input type="submit" value="Go" />
+      </form>
+      <br />
+      <button id="video">Take me to a Duck Site</button>
+    </div>
+    <script src="buy.js"></script>
+  </body>
+</html>

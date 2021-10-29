@@ -1,0 +1,113 @@
+body {
+  background: rgb(247, 247, 247);
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 1000px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+@keyframes size {
+	from{max-width: 200%;}
+	to{max-width: 30%;}
+}
+
+@keyframes color {
+	from{color:red;}
+	to{color: blue;}
+}
+
+.images {
+	border: 10px solid rgb(19, 14, 87);
+	animation-name: size;
+	animation-duration: 10s;
+	animation-iteration-count: 1;
+}
+
+#hello {
+	color: red;
+	animation-name: color;
+	animation-duration: 40s;
+	animation-iteration-count: 1;
+}
+
+
+.color-button {
+	background-color: #f7f304; 
+	color: rgb(0, 0, 0);
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+.place-button {
+	background-color: #f7f304; 
+	color: rgb(0, 0, 0);
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+.ritual-button {
+	background-color: #f7f304; 
+	color: rgb(0, 0, 0);
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.question-bloch {
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+  }
+
+.question-bloch button {
+	height: 60px;
+	width: 60px;
+	background-color: black;
+	color: white;
+	border: 5px solid;
+	border-radius: 25%;
+	font-size: 40px;
+  }
+
+.background-div {
+	border: solid yellow;
+	background-color: orange;
+	margin:  auto;
+	display: inline-block
+}
